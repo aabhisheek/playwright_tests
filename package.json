@@ -1,0 +1,22 @@
+{
+  "name": "abhishek.a.auracloud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "playwright_Basic_Tests",
+  "devDependencies": {
+    "@playwright/test": "^1.61.0",
+    "@types/node": "^26.0.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "playwright": "^1.61.0",
+    "playwright-core": "^1.61.0",
+    "undici-types": "^8.3.0"
+  }
+}
