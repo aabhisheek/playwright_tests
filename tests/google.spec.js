@@ -7,6 +7,11 @@ test("Verify Application URL", async ({ page }) => {
     console.log("URL is " + url);
 
     await expect(page).toHaveURL("https://www.google.com/");
+
+     const title = await page.title();
+    console.log("Title is " + title);
+
+    await expect(page).toHaveTitle("Google");
 });
 
 

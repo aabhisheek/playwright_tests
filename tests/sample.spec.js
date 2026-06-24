@@ -5,6 +5,11 @@ const { test, expect } = require('@playwright/test');
 
 //  npx playwright show-report  
 
+// npx playwright test tests/google.spec.js
+
+//npx playwright test tests/login.spec.js
+
+//npx playwright test --headed
 
 // test('My First Test', async ({ page }) => {
 //     // Test steps here

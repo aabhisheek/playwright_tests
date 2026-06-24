@@ -1,0 +1,16 @@
+{
+  "username": "abhishek",
+  "password": "6591@Kiit",
+  "firstName": "ansh1234",
+  "lastName": "jha",
+  "gender": "MALE",
+  "dob": {
+    "year": "1927",
+    "month": 12,
+    "day": "12"
+  },
+  "language": "sv",
+  "citizenCountry": "SWD",
+  "domicileCountry": "SWD",
+  "ssn": "192712127436"
+}
