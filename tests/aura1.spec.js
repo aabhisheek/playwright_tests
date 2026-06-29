@@ -1,7 +1,7 @@
 import { test, expect,chromium} from '@playwright/test';
 import { readFileSync } from 'fs';
 
-const clientData = JSON.parse(readFileSync('tests/data/clientData.json', 'utf-8'));
+const clientData = JSON.parse(readFileSync('tests/data/clientData2.json', 'utf-8'));
 
 const MONTHS = [
   'January', 'February', 'March', 'April', 'May', 'June',
@@ -64,9 +64,9 @@ test('test', async ({  }) => {
   //added line for my particular logged in chrome account to be used
 
 
-  // await page.goto('https://internaltrunkcore.auracloud.com/login.0');
+  await page.goto('https://internaltrunkcore.auracloud.com/login.0');
   // await page.goto('http://localhost:1010/demobank-client/login.0');
-   await page.goto('https://www.linkedin.com/feed/');
+  //  await page.goto('https://www.linkedin.com/feed/');
   await page.waitForLoadState('networkidle');
   await page.pause
   const username = page.locator('input[name="oAuthContainer:username"]');
