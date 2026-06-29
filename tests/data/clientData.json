@@ -1,16 +1,20 @@
+
+
+
+
 {
-  "username": "abhishek",
-  "password": "6591@Kiit",
-  "firstName": "ansh1234",
+  "username": "ccuser2",
+  "password": "Aura@2024",
+  "firstName": "tes6592",
   "lastName": "jha",
   "gender": "MALE",
   "dob": {
-    "year": "1927",
-    "month": 12,
-    "day": "12"
+    "year": "1982",
+    "month": 3,
+    "day": "14"
   },
   "language": "sv",
-  "citizenCountry": "SWD",
-  "domicileCountry": "SWD",
-  "ssn": "192712127436"
+  "citizenCountry": "SWE",
+  "domicileCountry": "SWE",
+  "ssn": "198203144954"
 }

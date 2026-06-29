@@ -1,4 +1,8 @@
 import { test, expect } from '@playwright/test';
+import { readFileSync } from 'fs';
+
+const clientData = JSON.parse(readFileSync('tests/data/clientData.json', 'utf-8'));
+
 
 test('test', async ({ page }) => {
   //from here we  start due diligence from a diff account than logged in here
@@ -17,9 +21,11 @@ test('test', async ({ page }) => {
   await page.getByText('Due diligence').click();
   await page.getByRole('link', { name: 'Person' }).click();
   await page.getByRole('textbox', { name: 'Search...' }).click();
-  await page.getByRole('textbox', { name: 'Search...' }).fill('a');
+   const fullName = `${clientData.firstName} ${clientData.lastName}`;
+  await page.getByRole('textbox', { name: 'Search...' }).type(fullName, { delay: 200 });
+  await page.waitForTimeout(200);
   await page.getByRole('button', { name: 'Search' }).click();
-  await page.getByText('ansh1234 jh').click();
+  await page.getByText(fullName).click();
   await page.getByRole('link', { name: 'Verification' }).click();
 await page
   .locator('.tabpanel', {

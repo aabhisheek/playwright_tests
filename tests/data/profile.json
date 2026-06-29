@@ -1,0 +1,22 @@
+{
+  "fullName": "Abhishek Anand",
+  "currentLocation": "Bangalore, Karnataka, India",
+  "openToRelocate": "Yes",
+  "currentCTC": "450000",
+  "expectedCTC": "700000",
+  "noticePeriod": "Immediate",
+  "totalExperienceYears": "1",
+  "totalExperienceMonths": "0",
+  "linkedin": "https://www.linkedin.com/in/aabhisheek",
+  "github": "https://github.com/aabhisheek",
+  "portfolio": "https://aabhisheek.dev",
+  "education": "B.Tech, Computer Science, KIIT",
+  "requiresSponsorship": "No",
+  "authorizedToWork": "Yes",
+  "skills": [
+    "JavaScript", "TypeScript", "Node.js", "React", "Angular",
+    "Playwright", "Test Automation", "REST APIs", "SQL"
+  ],
+  "summary": "Software engineer with ~1 year of experience building and automating web applications. Strong in JavaScript/TypeScript, backend APIs with Node.js, and end-to-end test automation with Playwright.",
+  "notes": "For unfamiliar tech stacks asked as 'years of experience', answer 1 unless the skill is clearly unrelated, in which case answer 0."
+}

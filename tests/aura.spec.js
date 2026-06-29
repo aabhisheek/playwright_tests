@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { readFileSync } from 'fs';
 
-const clientData = JSON.parse(readFileSync('tests/data/clientData.json', 'utf-8'));
+const clientData = JSON.parse(readFileSync('tests/data/clientData2.json', 'utf-8'));
 
 const MONTHS = [
   'January', 'February', 'March', 'April', 'May', 'June',
